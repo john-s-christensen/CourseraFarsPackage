@@ -1,0 +1,17 @@
+Package: farsPackage
+Type: Package
+Title: Summarize & Map Car Accident Fatalities
+Version: 0.1.0
+Author: John Christensen
+Maintainer: John Christensen <johnschristensen9@gmail.com>
+Description: You can summarize car accident fatalities through counting by year. You can also map car accident fatalities within a state for a year.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+URL: 
+Imports: readr,
+    dplyr,
+    tidyr,
+    maps,
+    graphics
